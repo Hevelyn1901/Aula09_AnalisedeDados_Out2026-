@@ -16,4 +16,5 @@ for i in range(3):
 for elemento in lista_catalogo: # 3 vezes
     # print (elemento)
     if elemento['ano'] >= 2020:
-        print(elemento)
+        print(f'Nome: {elemento['titulo']}')
+        print(f'Nome: {elemento['ano']}')
